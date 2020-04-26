@@ -1,0 +1,198 @@
+object fbiantara: Tfbiantara
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 613
+  ClientWidth = 378
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header: TToolBar
+    Size.Width = 378.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderLabel: TLabel
+      Align = Contents
+      StyledSettings = [FontColor]
+      Size.Width = 378.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Family = 'Algerian'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000000000001000000}
+      TextSettings.HorzAlign = Center
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label2: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 120.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000100000004000000}
+      Text = 'BIANTARA'
+      TabOrder = 2
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Left
+      Size.Width = 49.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      Text = 'SpeedButton2'
+    end
+    object Button1: TButton
+      Align = Right
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 325.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'stoptoolbutton'
+      TabOrder = 3
+      Text = 'Button1'
+      OnClick = Button1Click
+    end
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 565.000000000000000000
+    Size.Width = 378.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    object ToolBar1: TToolBar
+      Align = Bottom
+      Size.Width = 378.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'bottomtoolbar'
+      TabOrder = 0
+      object Rectangle5: TRectangle
+        Fill.Color = claDarkseagreen
+        Size.Width = 385.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claNull
+      end
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Style, FontColor]
+        Size.Width = 378.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Times New Roman'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = '(C) 2020 BY PKL'
+        TabOrder = 0
+      end
+    end
+  end
+  object Rectangle3: TRectangle
+    Fill.Color = claMoccasin
+    Position.X = -2.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 379.000000000000000000
+    Size.Height = 516.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      '        Biantara nyaeta nu dilakukeun ku hiji jalma diharepeun'
+      ' jalma rea pikeun nepiken hiji hal. Ditilik tina suasanana aya '
+      ' dua rupa biantara nyaeta biantara resmi jeung biantara'
+      ' teu resmi, komunikasi anu aya dina biantara nyaeta '
+      ' saarah atawa monologis. '
+      ''
+      ' Biantara direspon :'
+      '  1. saukur kunggeuk '
+      '  2. saukur ku godeg'
+      '  3. saukur keprok'
+      '  4. saukur seuri'
+      ' '
+      ' Aya oge struktur biantara diantara :'
+      '  1. Salam bubuka, nyaeta saperti "Assalamu'#39'alaikum".'
+      '  2. pangabagea, "bapak ibu guru anu kusim kuring dipika'
+      '      hormat rerencangan anu dipika cinta...".'
+      '  3. Bubuka nyaeta "puji sareng syukur".'
+      '  4. Eusi nyaeta "sapertos anu kuurang sadaya uninga'
+      '      kabersihan teh kaida pentingna..".'
+      '  5. Penutup nyaeta "Rupina sakitu anu kapihatur...".'
+      '  6. Salam penutup'
+      ''
+      ' Aturan biantara (padika)'
+      '  1. Parigel (muka biantara)'
+      '  2. Eces (Nepikeun eusina)'
+      '  3. Ngentep seureuh (ngaruntuy)'
+      '  4. Rengkak (pasemon) '
+      '  5. Sorot soca '
+      '  6. Gaya basa'
+      '  &. Saluyuken jeung situasi audiens'
+      '  8. Parigel nutup biantara'
+      '    ')
+    StyledSettings = [Style, FontColor]
+    TextSettings.Font.Family = 'Times New Roman'
+    TextSettings.Font.Size = 14.000000000000000000
+    Align = Client
+    Size.Width = 378.000000000000000000
+    Size.Height = 517.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Viewport.Width = 378.000000000000000000
+    Viewport.Height = 517.000000000000000000
+  end
+  object MultiView1: TMultiView
+    MasterButton = SpeedButton2
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 209.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 517.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 3
+    object ListBox1: TListBox
+      Align = Client
+      Size.Width = 250.000000000000000000
+      Size.Height = 517.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 246.000000000000000000
+      Viewport.Height = 513.000000000000000000
+      object ListBoxItem3: TListBoxItem
+        TextSettings.HorzAlign = Center
+        StyledSettings = [Family, Size, Style, FontColor]
+        Size.Width = 246.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Link Videos'
+        OnClick = ListBoxItem3Click
+      end
+    end
+  end
+end

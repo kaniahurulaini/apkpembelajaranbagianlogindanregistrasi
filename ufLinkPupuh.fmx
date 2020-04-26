@@ -1,0 +1,120 @@
+object fLinkPupuh: TfLinkPupuh
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 569
+  ClientWidth = 374
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object Rectangle3: TRectangle
+    Fill.Color = claMoccasin
+    Position.X = -11.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 521.000000000000000000
+    Size.Width = 374.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 2
+    object Rectangle5: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Style, FontColor]
+      Size.Width = 374.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '(C) 2020 BY PKL'
+      TabOrder = 0
+    end
+  end
+  object Header: TToolBar
+    Size.Width = 374.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderLabel: TLabel
+      Align = Contents
+      StyledSettings = [FontColor]
+      Size.Width = 374.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Family = 'Algerian'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000000000001000000}
+      TextSettings.HorzAlign = Center
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label2: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 128.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 129.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000100000004000000}
+      Text = 'Link Videos'
+      TabOrder = 2
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 337.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cleareditbutton'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+    object Button1: TButton
+      Align = Left
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 38.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'speedbuttonstyle'
+      TabOrder = 3
+      Text = 'Load'
+      OnClick = Button1Click
+    end
+  end
+  object WebBrowser1: TWebBrowser
+    Align = Client
+    Size.Width = 374.000000000000000000
+    Size.Height = 473.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

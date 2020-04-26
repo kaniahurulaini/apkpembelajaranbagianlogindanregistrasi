@@ -1,0 +1,243 @@
+object fCarpon: TfCarpon
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 607
+  ClientWidth = 371
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header: TToolBar
+    Size.Width = 371.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderLabel: TLabel
+      Align = Contents
+      StyledSettings = [FontColor]
+      Size.Width = 371.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Family = 'Algerian'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000000000001000000}
+      TextSettings.HorzAlign = Center
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label2: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 88.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000100000004000000}
+      Text = 'CARITA PONDOK'
+      TabOrder = 2
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 334.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cleareditbutton'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 559.000000000000000000
+    Size.Width = 371.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    object Rectangle5: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Style, FontColor]
+      Size.Width = 371.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = '(C) 2020 BY HILDA RAHMA ZAHIRA'
+      TabOrder = 0
+    end
+  end
+  object Rectangle3: TRectangle
+    Fill.Color = claMoccasin
+    Position.X = -13.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+  object SpeedButton2: TSpeedButton
+    Position.X = 8.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'drawertoolbutton'
+    Text = 'SpeedButton2'
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 371.000000000000000000
+    Size.Height = 511.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Lines.Strings = (
+        ' Carita Pondok'
+        '    Carita pondok teh nyaeta karangan rekaan (fiksi) anu'
+        '    wangunna pondok sarta ngan ukur ngasongkeun hiji '
+        '    peristiwa. Carpon umumna nyaritakeun hal-hal anu '
+        '    sipatna realistis, diangkat tina kanyataan.'
+        ''
+        ' Sajarah Carita Pondok'
+        '    Carita pondok asal-muasalna mah tina talari carita '
+        '    lisan anu ngahasilkeun carita-carita kawentar '
+        '    kayaning Iliad sarta Odyssey  karya Homer.'
+        '    Carita-carita eta ditepikeun dina wangun puisi'
+        '    anu mibanda wirahma, kalayan wirahma anu'
+        '    mibanda fungsi minangka pakakas pikeun nulungan'
+        '    jalma pikeun nginget caritana. Bagian-bagian '
+        '    singget tina ieu carita teh, dipuseurkeun kana '
+        '    naratif-naratif individu anu bisa ditepikeun dina '
+        '    hiji kasempetan pondok. Sakab'#233'h caritana kakara '
+        '    kat'#233'mbong saupama sakab'#233'h bagean caritana '
+        '    geus ditepikeun.'
+        ''
+        ' Ciri '#8211' Ciri Carita Pondok'
+        '    Bisa rengse dibaca dina sakali mangsa'
+        '    Alurna teu kompleks, museur kana hiji kajdian'
+        '    Mere kesan lir enya-enya kajadian'
+        '    '
+        '    Unsur Instrinsik Carita Pondok'
+        '     '#183'         Palaku'
+        '     '#183'         Amanat'
+        '     '#183'         Tema'
+        '     '#183'         Latar'
+        '     '#183'         Galur'
+        ''
+        '    Unsur Ekstrinsik Carita Pondok'
+        '    '#183'         Nilai-nilai dalam Carita Pondok'
+        '    '#183'         Latar Belakang Kahirupan Pengarang'
+        '    '#183'         Situasi Sosial'
+        ''
+        '    Teknik Nulis Carita Pondok'
+        '    1. Tema'
+        '    2. Bahan carita'
+        '    3. Alur'
+        '    4. Tokoh'
+        '    5. Dialog'
+        '    6. Sudut pandang'
+        '    7. Prak-prakan'
+        ''
+        'Contoh Carita Pondok'
+        '                            DUA NUNGALALANA JEUNG HIJI BERUANG'
+        ''
+        '  Dua jalma leupang ngalalana babarengan liwat ka'
+        '  hiji leweung. waktu eta ngadadak aya Hiji beruang '
+        '  anu gede kaluar ti semak semak deukeut maranehna.'
+        '  salah sahiji nungalalana,ngan ukur mikirkeun diri '
+        '  sorangan jeung teu mikirkeun babaturannana.'
+        '  maneh na naek ka hiji tangkal anu deukeut ka maneh na.'
+        '  Nungalalana hiji deui,ngarasa teu bisa ngalawan '
+        '  beruang nu sakitu gede na sorangan.manehna '
+        '  ngabeubeut keun dirina ka nu taneuh jeung ngagoler '
+        '  bari ngahep-hep.'
+        '  Saolah-olah manehna tos maot. Maneh na osok'
+        '  ngadenge lamun beruang teh moal nyabak sato '
+        '  atawa jelema anu geus maot.'
+        '  Babaturannana nu aya di tangkal huenteu '
+        '  ngalakukeun naon naon jueng heunteu nulungan'
+        '  babaturannana anu ngagoler.teu nyaho paguneman'
+        '  ieu teh bener atawa heunteu.beruang eta teh  '
+        '  ningali ka jalma nu ngagoler maneh na ngaendus-'
+        '  endus deukeut sirah na,beruang eta teh ngarasa '
+        '  puas da korbanna  tos maot padahal ma heuntue'
+        '  beruang eta teh indit.'
+        '  Nungalalana anu di tangkal turun ka handap '
+        '  ningali babaturannana.'
+        '  '#8221'katingalinna sa olah-olah beruang eta teh '
+        '   ngabisikeun ka ceuli anu ngagoler bieu'#8221
+        '  '#8220'naon nu di katakeun ku beruang eta teh?'
+        '   saur nungalalana nu sambunyi di tangkal'#8221
+        '  '#8221'beruang eta nyarita,'#8221'saur nungalalana anu '
+        '   ngagoler bieu,'#8221'heunteu saluyu luempang'
+        '   babarengan jeung saurang anu ngantepkeun '
+        '   jeung heunteu mikirkeun babaturannana   '
+        '   anu keur dina bahaya '#8220)
+      StyledSettings = [Style, FontColor]
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 14.000000000000000000
+      Align = Client
+      Size.Width = 371.000000000000000000
+      Size.Height = 511.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 371.000000000000000000
+      Viewport.Height = 511.000000000000000000
+    end
+  end
+  object MultiView1: TMultiView
+    TargetControl = Layout1
+    MasterButton = SpeedButton2
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 193.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 511.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 3
+    object ListBox1: TListBox
+      Align = Client
+      Size.Width = 250.000000000000000000
+      Size.Height = 511.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 246.000000000000000000
+      Viewport.Height = 507.000000000000000000
+      object ListBoxItem3: TListBoxItem
+        TextSettings.HorzAlign = Center
+        StyledSettings = [Family, Size, Style, FontColor]
+        Size.Width = 246.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Link Videos'
+        OnClick = ListBoxItem3Click
+      end
+    end
+  end
+end
