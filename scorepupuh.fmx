@@ -1,0 +1,76 @@
+object pupuhscore: Tpupuhscore
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 535
+  ClientWidth = 377
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header1: THeader
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 377.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object Rectangle5: TRectangle
+    Fill.Color = claDarkseagreen
+    Position.X = -8.000000000000000000
+    Size.Width = 385.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+  object Label2: TLabel
+    StyledSettings = [FontColor]
+    Position.X = 112.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Times New Roman'
+    TextSettings.Font.Size = 24.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000100000004000000}
+    Text = 'SKOR QUIZ'
+    TabOrder = 2
+  end
+  object SpeedButton1: TSpeedButton
+    Position.X = 312.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'cleareditbutton'
+    Text = 'SpeedButton1'
+  end
+  object Rectangle1: TRectangle
+    Fill.Color = claMoccasin
+    Position.Y = 48.000000000000000000
+    Size.Width = 377.000000000000000000
+    Size.Height = 489.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 7
+    Position.X = 120.000000000000000000
+    Position.Y = 168.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button1: TButton
+    StyledSettings = [Family, FontColor]
+    Position.X = 112.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 177.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'SUBMIT'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    OnClick = Button1Click
+  end
+end
