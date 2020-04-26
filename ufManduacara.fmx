@@ -1,0 +1,180 @@
+object fManduacara: TfManduacara
+  Left = 0
+  Top = 0
+  Caption = 'Form5'
+  ClientHeight = 609
+  ClientWidth = 372
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Header: TToolBar
+    Size.Width = 372.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object HeaderLabel: TLabel
+      Align = Contents
+      StyledSettings = [FontColor]
+      Size.Width = 372.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.Font.Family = 'Algerian'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00040000000000000001000000}
+      TextSettings.HorzAlign = Center
+    end
+    object Rectangle2: TRectangle
+      Fill.Color = claDarkseagreen
+      Size.Width = 385.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claNull
+    end
+    object Label2: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 104.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000100000004000000}
+      Text = 'MANDU ACARA'
+      TabOrder = 2
+    end
+    object SpeedButton2: TSpeedButton
+      Align = Left
+      Size.Width = 49.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'drawertoolbutton'
+      Text = 'SpeedButton2'
+    end
+    object SpeedButton1: TSpeedButton
+      Align = Right
+      Margins.Right = 5.000000000000000000
+      Position.X = 335.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'cleareditbutton'
+      Text = 'SpeedButton1'
+      OnClick = SpeedButton1Click
+    end
+  end
+  object Rectangle3: TRectangle
+    Fill.Color = claMoccasin
+    Position.X = -7.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 379.000000000000000000
+    Size.Height = 516.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claNull
+  end
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 372.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+  object Footer: TToolBar
+    Align = Bottom
+    Position.Y = 561.000000000000000000
+    Size.Width = 372.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'bottomtoolbar'
+    TabOrder = 1
+    object ToolBar1: TToolBar
+      Align = Bottom
+      Size.Width = 372.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'bottomtoolbar'
+      TabOrder = 0
+      object Rectangle5: TRectangle
+        Fill.Color = claDarkseagreen
+        Size.Width = 385.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claNull
+      end
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Style, FontColor]
+        Size.Width = 372.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Times New Roman'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = '(C) 2020 BY PKL'
+        TabOrder = 0
+      end
+    end
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      '    Mandu acara '
+      '         Mandu acara nyaeta anu ngatur acara '
+      '     upacara, pertemuan, dan sebagainya'
+      ''
+      '    Nu kudu dilakukeun ku MC :'
+      '     1. Ngatur waktu + acara'
+      '     2. Ngatur saha anu rek mindeng'
+      '     3. Ngereunken panyatur '
+      '     4. Capetang nyarita'
+      '     5. Boga pangaweruh acara'
+      '     6. Kudu adil atawa ulah ngencang'
+      '     7. Kudu sopan '
+      '     8. Kudu nyusun kacindekan'
+      '     9. Nutup acara')
+    Align = Client
+    Size.Width = 372.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 372.000000000000000000
+    Viewport.Height = 513.000000000000000000
+  end
+  object MultiView1: TMultiView
+    TargetControl = Layout1
+    MasterButton = SpeedButton2
+    Mode = Drawer
+    NavigationPaneOptions.CollapsedWidth = 209.000000000000000000
+    Size.Width = 250.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 2
+    object ListBox1: TListBox
+      Align = Client
+      Size.Width = 250.000000000000000000
+      Size.Height = 513.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 246.000000000000000000
+      Viewport.Height = 509.000000000000000000
+      object ListBoxItem3: TListBoxItem
+        TextSettings.HorzAlign = Center
+        StyledSettings = [Family, Size, Style, FontColor]
+        Size.Width = 246.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Link Videos'
+        OnClick = ListBoxItem3Click
+      end
+    end
+  end
+end
